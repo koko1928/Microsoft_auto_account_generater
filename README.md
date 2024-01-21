@@ -1,6 +1,33 @@
 
 # Outlook Account Generator
 
+                     ........
+                ..gMMMMMMMMMMMMNJ,
+              .MMMMMMMMMMMMMMMMMMMN,
+             jMMMMMMMMMMMMMMMMMMMMMMN.
+            JMMMMMMMMMMMMMMMMMMMMMMMMb
+       `  ` MMMMMMMMMMMMMMMMMMMMMMMMMN    `  `
+    `       MMMMMMMMMMMMMMMMMMMMMMMMM#
+            ,MMMMM"""HMMMMMMM"""MMMMM%          `
+             vM#`      vMMF       MMF       `
+              Wb       (MMb       J#     `
+    `  `      .Na.   .MMMMMN,    .N]
+          `   MMMMMMMMMM=?MMMMMMMMMN          `
+        ..    MMMMMMMMM'.,.MMMMMMMMM`   ..
+   `  .MMMMh       MMMMMMMMMMMM.      JMMMMp
+      dMMMMM,     ,MMMMMMMMMMMM\     .MMMMM#  `
+    .MMMMMMMMMa,.  .7"WMMMMY""!  ..gMMMMMMMMN,
+    JMMMMMMMMMMMMMNJ,        ..gMMMMMMMMMMMMMF
+     ?WMM"?THMMMMMMMMMNa,.(MMMMMMMMMMM"=?MMB=
+               7TMMMMMMMMMMMMMMMMB"`
+                ..dMMMMMMMMMMMMNJ,
+     .(g&, ..+MMMMMMMMMM#WMMMMMMMMMNg,. ..g&,
+    .MMMMMMMMMMMMMMMB"`     ?YMMMMMMMMMMMMMMM[
+    (MMMMMMMMMMM"^              ?TMMMMMMMMMMMF
+      MMMMMM"!                      _TMMMMM#
+      dMMMM#                          WMMMMF
+       (""!                            .7"^
+
 ### Overview:
 
 The **Outlook Account Generator** is a tool created by koko1928 for automating the generation of Microsoft accounts. It requires the pre-installation of Google Chrome.
