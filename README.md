@@ -1,6 +1,7 @@
 
 # Outlook Account Generator
 
+```
                      ........
                 ..gMMMMMMMMMMMMNJ,
               .MMMMMMMMMMMMMMMMMMMN,
@@ -27,6 +28,7 @@
       MMMMMM"!                      _TMMMMM#
       dMMMM#                          WMMMMF
        (""!                            .7"^
+```
 
 ### Overview:
 
