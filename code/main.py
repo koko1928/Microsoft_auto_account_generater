@@ -49,8 +49,29 @@ def setup_browser(chrome_options):
     return browser
 
 def create_account(browser, account_info):
+    username_suffix, password, last_name, first_name, birth_year, birth_month, birth_day = account_info
     try:
-        pass
+        browser.get("https://signup.live.com/signup?wa=wsignin1.0&rpsnv=13&rver=7.3.6963.0&wp=MBI_SSL&wreply=https:%2f%2faccount.xbox.com%2fja-jp%2faccountcreation%3frtc%3d1%26csrf%3diRRDbBsXHWOzqJoxX9GqJOfUcAQCvJVJSNVhpu9YR0ntJtPfRjwCMjSg4qE1UQC4yx6KIvX4cVItbVhM5kW-6bAyA7o1&id=292543&aadredir=1&contextid=8369C2F0524F361B&bk=1602012918&uiflavor=web&lic=1&mkt=ja-jp&lc=1033&uaid=3ba71ae4427e4c300da204fc26106240")
+        browser.find_element(By.ID, "liveSwitch").click()
+        browser.find_element(By.ID, "MemberName").send_keys("a" + username_suffix)
+        browser.find_element(By.ID, "iSignupAction").click()
+        p = password
+        browser.find_element(By.ID, "PasswordInput").send_keys(p)
+        browser.find_element(By.ID, "iSignupAction").click()
+        f = open(f"{username_suffix}_pack.txt", "a")
+        f.write(f"a{username_suffix}@outlook.jp\n{p}\n")
+        browser.find_element(By.ID, "LastName").send_keys(last_name)
+        time.sleep(0.1)
+        browser.find_element(By.ID, "FirstName").send_keys(first_name)
+        browser.find_element(By.ID, "iSignupAction").click()
+        browser.find_element(By.ID, "BirthYear").send_keys(birth_year)
+        time.sleep(0.1)
+        browser.find_element(By.ID, "BirthMonth").send_keys(birth_month)
+        time.sleep(0.1)
+        browser.find_element(By.ID, "BirthDay").send_keys(birth_day)
+        browser.find_element(By.ID, "iSignupAction").send_keys(Keys.ENTER)
+        browser.find_element(By.ID, "declineButton").click()
+        browser.find_element(By.ID, "Cancel").click()
     except (NoSuchElementException, TimeoutException, WebDriverException) as e:
         logger.error(f"アカウント生成中にエラーが発生しました: {str(e)}")
 
