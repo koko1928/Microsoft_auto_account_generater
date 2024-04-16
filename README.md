@@ -1,5 +1,5 @@
 
-# Outlook Account Generator
+# Microsoft Account Generator
 
 ```
                      ........
@@ -32,7 +32,7 @@
 
 ### Overview:
 
-The **Outlook Account Generator** is a tool created by koko1928 for automating the generation of Microsoft accounts. It requires the pre-installation of Google Chrome.
+The **Microsoft Account Generator** is a tool created by koko1928 for automating the generation of Microsoft accounts. It requires the pre-installation of Google Chrome.
 
 ### Key Features:
 
