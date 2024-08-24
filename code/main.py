@@ -126,7 +126,7 @@ def main():
         if language == 'jp':
             last_names = ['佐藤', '鈴木', '高橋', '田中', '伊藤', '渡辺', '山本', '中村', '小林', '加藤', '吉田', '山田', '佐々木', '山口', '松本', '井上', '木村', '林', '斎藤', '清水']
             first_names = ['翔太', '拓也', '健太', '翔', '達也', '雄太', '翔平', '大樹', '亮', '健太郎', '愛', '彩', '美穂', '成美', '沙織', '麻衣', '舞', '愛美', '瞳', '彩香']
-        else:  # English
+        else:
             last_names = ['Smith', 'Johnson', 'Williams', 'Jones', 'Brown', 'Davis', 'Miller', 'Wilson', 'Moore', 'Taylor', 'Anderson', 'Thomas', 'Jackson', 'White', 'Harris', 'Martin', 'Thompson', 'Garcia', 'Martinez', 'Robinson']
             first_names = ['James', 'John', 'Robert', 'Michael', 'William', 'David', 'Joseph', 'Charles', 'Thomas', 'Christopher', 'Daniel', 'Matthew', 'Anthony', 'Mark', 'Donald', 'Steven', 'Paul', 'Andrew', 'Joshua', 'Mary', 'Patricia', 'Linda', 'Barbara', 'Elizabeth', 'Jennifer']
 
